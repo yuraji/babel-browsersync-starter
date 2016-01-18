@@ -5,10 +5,10 @@ Not too much, not too little to start a local development with ES2015
 ## Included
 
 * `gulp nodemon` task, which restarts backend, when `server.js` changes.
-* `gulp browsersync` task, which triggers browser to reload
-* `gulp build` task, which builds source javascript in `src/` to `public/js/`.
-* `gulp watch` watches `src/` folder and calls `gulp build`.
-* `gulp` defaults to `gulp build`.
+* `gulp browsersync` task, which triggers browser to reload when any of frontend files changed.
+* `gulp build` task, which builds source javascript in `src/` to `public/js/`
+* `gulp watch` watches `src/` folder and calls `gulp build`
+* `gulp` defaults to `gulp build`
 * `npm start` is an alias to `gulp browsersync`
 * Most basic `server.js` express app, which statically serves `public/` dir.
 * Babel preset [es2015](https://babeljs.io/docs/plugins/preset-es2015/), with support for [es6 modules](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/)
